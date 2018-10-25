@@ -101,6 +101,12 @@ def doubler(list1, list2):
         :type list1: list of int
         :type list2: list of int
     """
+    list2 = []
+    for k in range(len(list1)):
+        a = list1[k] * 2
+        list2.append(a)
+    return list2
+
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
